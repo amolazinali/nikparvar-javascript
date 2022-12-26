@@ -1,0 +1,10 @@
+no1=document.getElementById("no1")
+no2=document.getElementById("no2")
+fin=document.getElementById("fin")
+inr=document.getElementById("int")
+fin.onclick=function(){
+    no2.value=(isFinite(no1.value))
+}
+int.onclick=function(){
+    no2.value=(Number.isInteger(parseInt(no1.value)))
+}
